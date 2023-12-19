@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="obekt66.xsl"?>
+<!DOCTYPE AutoCatalogue SYSTEM "obekt66.dtd">
+<AutoCatalogue>
+    <listing>
+        <region>Sofia-city</region>
+        <city>Sofia</city>
+        <price>11000</price>
+        <date>20.02.2002</date>
+    </listing>
+    <technical>
+        <brand brandCode="alfa" years="zerosix-twelve">Alfa Romeo</brand>
+        <model modelbrand="alfa" power="medium">159</model>
+        <year yearp="zerosix-twelve">2010</year>
+        <power p="medium">150</power>
+        <mileage>120000</mileage>
+        <category>Sedan</category>
+        <emissionStandard>Euro 5</emissionStandard>
+        <color>Bordeaux</color>
+        <transmission>Automatic</transmission>
+        <enginetype>Diesel</enginetype>
+    </technical>
+    <features>
+        <safety> ASC AFL ESP Park Assist Distronic </safety>
+        <comfort> Navigation Klimatronic Klimatic Steering Wheel Heating Airmatic </comfort>
+        <other> 4x4 7 seats Tuning LPG </other>
+        <exterior> Panoramic Roof 2/3 Doors 4/5 Doors Metallic Alloy Wheels </exterior>
+        <interior> Cloth Seats Leather Seats Right Wheel Drive </interior>
+        <security> Alarm Armorred Toe hook </security>
+        <specialised> Taxi For People With Dissabilities Ambulance Fridge </specialised>
+    </features>
+</AutoCatalogue>

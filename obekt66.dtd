@@ -1,0 +1,31 @@
+<!ELEMENT AutoCatalogue (listing,technical,features)>
+<!ELEMENT listing (region,city,price,date)>
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT technical (brand,model,year,power,mileage,category,emissionStandard,color,transmission,enginetype)>
+<!ELEMENT brand (#PCDATA)>
+<!ATTLIST brand brandCode ID #REQUIRED>
+<!ATTLIST brand years ID #REQUIRED>
+<!ELEMENT model (#PCDATA)>
+<!ATTLIST model power ID #REQUIRED>
+<!ATTLIST model modelbrand IDREF #REQUIRED>
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST year yearp IDREF #REQUIRED>
+<!ELEMENT power (#PCDATA)>
+<!ATTLIST power p IDREF #REQUIRED>
+<!ELEMENT mileage (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT emissionStandard (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT transmission (#PCDATA)>
+<!ELEMENT enginetype (#PCDATA)>
+<!ELEMENT features (safety,comfort,other,exterior,interior,security,specialised)>
+<!ELEMENT safety (#PCDATA)>
+<!ELEMENT comfort (#PCDATA)>
+<!ELEMENT other (#PCDATA)>
+<!ELEMENT exterior (#PCDATA)>
+<!ELEMENT interior (#PCDATA)>
+<!ELEMENT security (#PCDATA)>
+<!ELEMENT specialised (#PCDATA)>
