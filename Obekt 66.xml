@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="obekt66.xsl"?>
 <!DOCTYPE AutoCatalogue SYSTEM "obekt66.dtd">
 <AutoCatalogue>
@@ -6,7 +6,7 @@
         <region>Sofia-city</region>
         <city>Sofia</city>
         <price>11000</price>
-        <date>20.02.2002</date>
+        <date>22.02.2022</date>
     </listing>
     <technical>
         <brand brandCode="alfa" years="zerosix-twelve">Alfa Romeo</brand>
@@ -29,4 +29,14 @@
         <security> Alarm Armorred Toe hook </security>
         <specialised> Taxi For People With Dissabilities Ambulance Fridge </specialised>
     </features>
+    <review> The 159 is way ahead of previous Alfas in terms of reliability and build quality,
+        although it’s still behind key rivals. Time after time our Driver Power surveys have
+        highlighted the fact that the brand trails its German rivals on quality. But lower prices go
+        some way towards making up for that. Inconsistent dealer service can be an issue, but a good
+        independent specialist can transform the ownership experience. Despite Alfa’s reputation for
+        sportiness, the 159 isn’t that fast. Refinement and equipment levels are good, though. If
+        you’re buying with your head, you probably won’t be tempted – but if you’re buying with your
+        heart, the 159 makes sense. If you’re in the market for an executive model, you don’t
+        necessarily have to buy something sober and German. Instead, you could opt for an Italian
+        car with sporting flair. </review>
 </AutoCatalogue>

@@ -1,4 +1,4 @@
-<!ELEMENT AutoCatalogue (listing,technical,features)>
+<!ELEMENT AutoCatalogue (listing,technical,features,review)>
 <!ELEMENT listing (region,city,price,date)>
 <!ELEMENT region (#PCDATA)>
 <!ELEMENT city (#PCDATA)>
@@ -29,3 +29,5 @@
 <!ELEMENT interior (#PCDATA)>
 <!ELEMENT security (#PCDATA)>
 <!ELEMENT specialised (#PCDATA)>
+<!ELEMENT review (#PCDATA)>
+<!ENTITY car1 "https://www.auto-data.net/images/f56/Alfa-Romeo-159-Sportwagon.jpg">
